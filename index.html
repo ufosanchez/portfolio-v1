@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Arnulfo Sánchez Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script src="index.js" ></script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <!-------- HEADER -------->
+    <header id="header">
+        <img src="./images/logo.png" alt="logo portfolio">
+        <img src="./images/hamburguer.png" alt="menu toggle" class="toggle toggleSize" id="open_Toggle">
+        <img src="./images/cross.png" alt="menu toggle close" class="close-toggle toggleSize" id="close_Toggle">
+        <nav id="main-navigation" aria-label="Main navigation">
+            <ul class="menu">
+                <li><a href="#about-me-section">About</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#work-section">Work</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-------- HIDDEN TOGGLE -------->
+    <div>
+      <ul class="hide-menu close-toggle" id="hiddenMenu">
+          <li><a href="#about-me-section">About</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#work-section">Work</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </div>
+    <!-------- HERO SECTION -------->
+    <main id="main">
+      <div class="hero-wrapper content-wrapper">
+        <div class="hero-text">
+          <p>Hello, I'm</p>
+          <p>Arnulfo Sánchez</p>
+          <ul class="menu-hero">
+            <li>A future Full Stack Developer</li>
+            <li>A future Mobile Developer</li>
+            <li>A Mechatronics Engineer</li>
+          </ul>
+          <a href="#work-section" class="hero-content-work">My work</a>
+          <ul class="hero-acconts">
+            <li><a href="https://www.linkedin.com/in/arnulfosánchez/"><img src="./images/linkedin.png" alt="linkedin logo"></a></li>
+            <li><a href="https://github.com/ufosanchez"><img src="./images/github.png" alt="github logo"></a></li>
+          </ul>
+        </div>
+        <img src="./images/hero.jpg" alt="hero image, main image">
+      </div>
+      <!-------- ABOUT ME SECTION -------->
+      <section id="about-me-section" >
+        <div class="content-wrapper content-spacing">
+          <h2>About me</h2>
+          <div class="about-wrapper">
+            <img src="./images/ufosanchez.jpg" alt="hero image #2, about me section">
+            <div class="about-me-content">
+                <p>I am currently studying Web development in <strong><u>Humber College</u></strong> and I am seeking to acquire the position of 
+                <strong><u>Summer Internship</u></strong>. An efficient, fast learner, communicative, detailed, able to work with others, hard-working, 
+                analytical, problem-solving skills, and self-motivated student with a passion for learning. </p>
+                <p>In my free time I like to go for a walk while I eat ice cream, this allows me to have times in which I can take time for myself and share with my family and friends.</p>
+                <!-------- INFORMATION ABOUT ME (LOCATION, EMAIL...) SECTION -------->
+                <ul class="about-info">
+                    <div>
+                      <li>
+                        <div class="inner-job">
+                          <img src="./images/location.png" alt="location icon">
+                          <strong>Toronto, Canada</strong>
+                        </div>
+                      </li>
+                      <li class="about-info-job">
+                          <img src="./images/job.png" alt="job icon">
+                          <ul>
+                              <li><strong>Junior Developer</strong></li>
+                              <li><strong>Summer Internship</strong></li>
+                          </ul>
+                      </li>
+                    </div>
+                    <div>
+                      <li>
+                        <div class="inner-job">
+                          <img src="./images/email.png" alt="email icon">
+                          <strong>n01637867@humber.ca</strong>
+                        </div>
+                      </li>
+                      <li>
+                          <div class="inner-job">
+                            <img src="./images/availability.png" alt="calendar icon">
+                            <strong>Full time</strong>
+                          </div>
+                      </li>
+                    </div>
+                </ul>
+            </div>
+          </div>
+          <!-------- HIDDEN INFORMATION ABOUT ME (LOCATION, EMAIL...) SECTION -------->
+          <div class="hide-about-me">
+            <ul class="hide-about-info">
+              <div>
+                <li>
+                  <div class="inner-job">
+                    <img src="./images/location.png" alt="location icon">
+                    <strong>Toronto, Canada</strong>
+                  </div>
+                </li>
+                <li class="about-info-job">
+                    <img src="./images/job.png" alt="job icon">
+                    <ul>
+                        <li><strong>Junior Developer</strong></li>
+                        <li><strong>Summer Internship</strong></li>
+                    </ul>
+                </li>
+              </div>
+              <div>
+                <li>
+                  <div class="inner-job">
+                    <img src="./images/email.png" alt="email icon">
+                    <strong>n01637867@humber.ca</strong>
+                  </div>
+                </li>
+                <li>
+                    <div class="inner-job">
+                      <img src="./images/availability.png" alt="calendar icon">
+                      <strong>Full time</strong>
+                    </div>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-------- SKILLS SECTION -------->
+      <section id="skills-section" class="content-wrapper">
+        <h2>Skills</h2>
+        <div class="column-skills">
+          <div class="center-picture">
+            <img src="./images/HTML.png" alt="HTML icon">
+          </div>
+          <div class="center-picture">
+            <img src="./images/CSS.png" alt="CSS icon">
+          </div>
+          <div class="center-picture">
+            <img src="./images/JavaScript.png" alt="JavaScript icon">
+          </div>
+          <div class="center-picture">
+            <img src="./images/MySQL.png" alt="MySQL icon" class="mysql">
+          </div>
+          <div class="center-picture">
+            <img src="./images/CSharp.png" alt="C# icon">
+          </div>
+          <div class="center-picture">
+            <img src="./images/swift.png" alt="Swift icon">
+          </div>
+          <div class="center-picture">
+            <img src="./images/kotlin.png" alt="Kotlin icon">
+          </div>
+          <div class="center-picture">
+            <img src="./images/git.png" alt="Git icon">
+          </div>
+          <div class="center-picture">
+            <img src="./images/github.png" alt="GitHub icon">
+          </div>
+        </div>
+      </section>
+      <!-------- WORK SECTION -------->
+      <section id="work-section">
+        <div class="content-wrapper content-spacing">
+          <h2>Work</h2>
+          <div class="work-wrapper">
+            <div>
+              <img src="./images/web-project.png" alt="Web project image">
+              <div>
+                <p>A web page that shows  bank account history. The user can provide the information and will be able to see their income/expense history, additionally it will illustrate an alert if the balance is zero.</p>
+                <a href="https://github.com/ufosanchez" class="code code-spacing">Code</a>
+                <p class="software">HTLM, CSS, JavaScript</p>
+              </div>
+            </div>
+            <div>
+                <img src="./images/tribia-game.jpg" alt="Trivia Battale Game picture">
+                <div>
+                  <p>A Trivia Battle Game Multilevel Application designed for iOS mobile devices.</p>
+                  <p>This game displays a series of questions that must be answered in order to level up.</p>
+                  <a href="https://github.com/ufosanchez" class="code code-spacing">Code</a>
+                  <p class="software">Swift UI</p>
+                </div>
+            </div>
+            <div>
+                <img src="./images/masterchef.jpg" alt="Restaurant picture app">
+                <div>
+                  <p>An Android Application that displays information about  30 of the best restaurants in the Greater Toronto Area through a dynamic list that redirects to the restaurant's website when clicked.</p>
+                  <a href="https://github.com/ufosanchez" class="code">Code</a>
+                  <p class="software">Android Studio, Kotlin</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------- CONTACT SECTION -------->
+      <section id="contact-section" class="content-wrapper">
+        <h2>Contact</h2>
+        <div class="contact-container">
+          <form method="post" action="#">
+            <div>
+                <label for="name">Your name:</label>
+            </div>
+            <div>
+                <input type="text" id="name" name="viewerName" placeholder="Please write your name">
+            </div>
+            <div>
+                <label for="email">Your email:</label>
+            </div>
+            <div>
+                <input type="email" id="email" name="viewerEmail" placeholder="Please write your email">
+            </div>
+            <div>
+                <label for="msg">Your message:</label>
+            </div>
+            
+                <textarea id="msg" name="message" placeholder="Please write your message" maxlength="256"></textarea>
+            
+            <button type="submit">Send</button>
+          </form>
+          <img src="./images/form.png" alt="form logo">
+        </div>
+      </section>
+    </main>
+    <!-------- FOOTER SECTION -------->
+    <footer id="footer">
+      <div>
+        <div id="copyright">
+          &copy; Copyright Arnulfo Sánchez, 2023
+        </div>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/arnulfosánchez/"><img src="./images/linkedin.png" alt="linkedin logo"></a></li>
+          <li><a href="https://github.com/ufosanchez"><img src="./images/github-footer.png" alt="github logo"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
